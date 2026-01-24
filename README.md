@@ -8,12 +8,14 @@ This repository contains the source code of the End-to-End data pipeline built f
 
 <ul> <b> <h2>Objectives </h2></b> 
 
+ <li>Used Star Schema Architecture for ETL (Gold Layer) with "Orders" as the <b><i>Fact table</i> </b> and "Customers", "Products" and "Regions" as <b><i>Dimension Table.</i> </b> </li>
+ <li>Converted CSV to parquet file formats for faster querying. </li>
+ 
  <li>Implemented Medallion architecture (Bronze, Silver, Gold) for data pipelines. </li>
  <li>Pulled data from Azure Data Lakes into Databricks transformed it and sent it to further layers in the Medallion Architecture.  </li>
 
 
- <li>Used Star Schema Architecture for ETL (Gold Layer) with "Orders" as the <b><i>Fact table</i> </b>u and "Customers", "Products" and "Regions" as <b><i>Dimension Table.</i> </b> </li>
- <li>Converted CSV to parquet file formats for faster querying. </li>
+
  
 
  <li>Developed PySpark code with utility functions that transformed and processed data. </li>
