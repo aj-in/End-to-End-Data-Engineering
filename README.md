@@ -9,8 +9,8 @@ This repository contains the source code of the End-to-End data pipeline built f
 <ul> <b> <h2>Achievements </h2></b> 
 
  
- <li>Quickly identified ETL errors by simplifying transformations in Medallion architecture (Bronze, Silver, Gold)</li>
- <li>Calculated live data-quality KPIs and sent **email alerts** for pipeline failures</li>
+ <li>Quickly identified ETL errors via Medallion architectures (Bronze, Silver, Gold) that pinpointed errors</li>
+ <li>Calculated live data-quality KPIs and sent <i><b>email alerts</b></i> for pipeline failures</li>
  <li>Ensured data privacy by masking customer PII from SQL data models</li>
  <li>Converted CSV to parquet file formats for faster querying</li>
 
